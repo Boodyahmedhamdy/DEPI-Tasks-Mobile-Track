@@ -26,8 +26,8 @@ public class Main {
             boolean foundInStudents = false;
 
             // search in instructors
-            for (String[] instructor : DB.instructors) {
-                if(username.equals(instructor[0]) && password.equals(instructor[1])) {
+            for (Instructor instructor : DB.instructors) {
+                if(username.equals(instructor.username) && password.equals(instructor.password)) {
                     foundInInstructors = true;
                     break;
                 }
@@ -43,8 +43,8 @@ public class Main {
             if(foundInStudents) {
                 // print all courses
                 System.out.println("Login successful as Student");
-                for (String course : DB.courses) {
-                    System.out.println("- " + course);
+                for (Course course : DB.courses) {
+                    System.out.println("- " + course.title);
                 }
                 appStillRunning = false; // to finish execution
             } else if (foundInInstructors) {
