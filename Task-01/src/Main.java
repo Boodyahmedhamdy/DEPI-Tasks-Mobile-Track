@@ -33,8 +33,8 @@ public class Main {
                 }
             }
             // search in students
-            for (String[] student : DB.students) {
-                if(username.equals(student[0]) && password.equals(student[1])) {
+            for (Student student : DB.students) {
+                if(username.equals(student.username) && password.equals(student.password)) {
                     foundInStudents = true;
                     break;
                 }
@@ -50,8 +50,8 @@ public class Main {
             } else if (foundInInstructors) {
                 System.out.println("Login successful as Instructor");
                 // print all students
-                for (String[] student : DB.students) {
-                    System.out.println("- " + student[0]);
+                for (Student student : DB.students) {
+                    System.out.println("- " + student.username);
                 }
                 appStillRunning = false;// to finish execution
             } else {
