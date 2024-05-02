@@ -1,23 +1,6 @@
 import java.util.Scanner;
 
 public class Main {
-    static final String[][] instructors = {
-            {"instructor1", "instPass1"},
-            {"instructor2", "instPass2"},
-            {"instructor3", "instPass3"},
-            {"instructor4", "instPass4"}
-    };
-
-    static final String[][] students = {
-            {"student1", "stuPass1"},
-            {"student2", "stuPass2"},
-            {"student3", "stuPass3"},
-            {"student4", "stuPass4"},
-    };
-
-    static final String[] courses = {
-            "Java Programming", "Web Development", "Data Science", "Machine learining"
-    };
 
     public static void main(String[] args) {
         /*
@@ -43,14 +26,14 @@ public class Main {
             boolean foundInStudents = false;
 
             // search in instructors
-            for (String[] instructor : instructors) {
+            for (String[] instructor : DB.instructors) {
                 if(username.equals(instructor[0]) && password.equals(instructor[1])) {
                     foundInInstructors = true;
                     break;
                 }
             }
             // search in students
-            for (String[] student : students) {
+            for (String[] student : DB.students) {
                 if(username.equals(student[0]) && password.equals(student[1])) {
                     foundInStudents = true;
                     break;
@@ -60,14 +43,14 @@ public class Main {
             if(foundInStudents) {
                 // print all courses
                 System.out.println("Login successful as Student");
-                for (String course : courses) {
+                for (String course : DB.courses) {
                     System.out.println("- " + course);
                 }
                 appStillRunning = false; // to finish execution
             } else if (foundInInstructors) {
                 System.out.println("Login successful as Instructor");
                 // print all students
-                for (String[] student : students) {
+                for (String[] student : DB.students) {
                     System.out.println("- " + student[0]);
                 }
                 appStillRunning = false;// to finish execution
