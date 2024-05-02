@@ -6,11 +6,11 @@ public class DB {
             {"instructor4", "instPass4"}
     };
 
-    static final String[][] students = {
-            {"student1", "stuPass1"},
-            {"student2", "stuPass2"},
-            {"student3", "stuPass3"},
-            {"student4", "stuPass4"},
+    static final Student[] students = {
+            new Student("student1", "stuPass1"),
+            new Student("student2", "stuPass2"),
+            new Student("student3", "stuPass3"),
+            new Student("student4", "stuPass4"),
     };
 
     static final String[] courses = {
