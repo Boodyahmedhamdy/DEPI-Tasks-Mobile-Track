@@ -1,9 +1,9 @@
 public class DB {
-    static final String[][] instructors = {
-            {"instructor1", "instPass1"},
-            {"instructor2", "instPass2"},
-            {"instructor3", "instPass3"},
-            {"instructor4", "instPass4"}
+    static final Instructor[] instructors = {
+            new Instructor("instructor1", "instPass1"),
+            new Instructor("instructor2", "instPass2"),
+            new Instructor("instructor3", "instPass3"),
+            new Instructor("instructor4", "instPass4"),
     };
 
     static final Student[] students = {
@@ -13,7 +13,10 @@ public class DB {
             new Student("student4", "stuPass4"),
     };
 
-    static final String[] courses = {
-            "Java Programming", "Web Development", "Data Science", "Machine learining"
+    static final Course[] courses = {
+            new Course("Java Programming"),
+            new Course("Web Development"),
+            new Course("Data Science"),
+            new Course("Machine learning"),
     };
 }
