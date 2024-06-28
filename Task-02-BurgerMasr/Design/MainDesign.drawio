@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-06-28T13:27:54.084Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.21 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="26cAi-f-cR00DtYgHyp8" version="22.1.21" type="device" pages="2">
+<mxfile host="Electron" modified="2024-06-28T14:06:32.761Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.21 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="X3fbj5Q6E-vUhyW6Vopm" version="22.1.21" type="device" pages="2">
   <diagram name="Class-Diagram" id="zsLI_04CYYi2njw3WIa1">
-    <mxGraphModel dx="1900" dy="1729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2759" dy="2244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -158,18 +158,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PZ8ps-rjj_HFFtJDPHYl-58" value="Orderable" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="-680" y="2399.93" width="120" height="60" as="geometry" />
+          <mxGeometry x="-620" y="2399.93" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PZ8ps-rjj_HFFtJDPHYl-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=12 12;" parent="1" source="PZ8ps-rjj_HFFtJDPHYl-55" target="PZ8ps-rjj_HFFtJDPHYl-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aUKL7P2NZDPzJZN1OTiJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PZ8ps-rjj_HFFtJDPHYl-65" target="PZ8ps-rjj_HFFtJDPHYl-55">
+        <mxCell id="aUKL7P2NZDPzJZN1OTiJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PZ8ps-rjj_HFFtJDPHYl-65" target="PZ8ps-rjj_HFFtJDPHYl-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PZ8ps-rjj_HFFtJDPHYl-65" value="&lt;b&gt;&lt;u&gt;BaseSandwich&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-290" y="2540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aUKL7P2NZDPzJZN1OTiJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PZ8ps-rjj_HFFtJDPHYl-66" target="PZ8ps-rjj_HFFtJDPHYl-55">
+        <mxCell id="aUKL7P2NZDPzJZN1OTiJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PZ8ps-rjj_HFFtJDPHYl-66" target="PZ8ps-rjj_HFFtJDPHYl-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PZ8ps-rjj_HFFtJDPHYl-66" value="&lt;b&gt;&lt;u&gt;BaseExtra&lt;/u&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
