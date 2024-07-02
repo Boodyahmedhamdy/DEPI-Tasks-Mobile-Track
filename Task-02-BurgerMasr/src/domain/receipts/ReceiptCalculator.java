@@ -1,4 +1,4 @@
-package domain;
+package domain.receipts;
 
 import domain.orders.Order;
 import domain.orders.OrderableItem;

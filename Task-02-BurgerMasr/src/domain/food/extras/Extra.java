@@ -1,4 +1,4 @@
-package domain.food;
+package domain.food.extras;
 
 import domain.orders.OrderableItem;
 
