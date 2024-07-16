@@ -56,7 +56,7 @@ public class CPU extends BaseCPU {
         }
 
         @Override
-        public Component build() {
+        public CPU build() {
             return new CPU(
                     name, brand, version, clockSpeed, cacheMemory
             );
